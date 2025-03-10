@@ -31,6 +31,7 @@ The spread of fake news is a major concern in today's digital world. This projec
 The dataset used in this project consists of two CSV files:
    - Fake.csv – Contains text from fake news articles labeled as 1.
    - True.csv – Contains text from real news articles labeled as 0.
+
 The dataset is shuffled and split into training (80%) and testing (20%) sets. The text data is preprocessed to remove unnecessary symbols, links, and punctuation.
 
 [🔗 Fake News Detection Dataset on Kaggle](https://www.kaggle.com/datasets/jainpooja/fake-news-detection)
