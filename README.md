@@ -33,7 +33,7 @@ The dataset used in this project consists of two CSV files:
 -True.csv – Contains text from real news articles labeled as 0.
 The dataset is shuffled and split into training (80%) and testing (20%) sets. The text data is preprocessed to remove unnecessary symbols, links, and punctuation.
 
-# Data Source        
+## Data Source        
 Fake News Dataset:https://www.kaggle.com/datasets/jainpooja/fake-news-detection
 
 
