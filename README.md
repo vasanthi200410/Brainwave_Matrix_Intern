@@ -95,7 +95,7 @@ The dataset used is the Credit Card Fraud Detection Dataset from Kaggle. It cont
 
    - Dataset Split: 80% Training, 20% Testing.
 
-[🔗 Fake News Detection Dataset on Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data)
+[🔗 Credit Card Fraud Detection Dataset on Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data)
 
 ### ALGORITHM
 1. Data Preprocessing
