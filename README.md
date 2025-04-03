@@ -114,7 +114,7 @@ The dataset used is the Credit Card Fraud Detection Dataset from Kaggle. It cont
 
     - Random Forest Classifier is chosen due to its robustness against imbalanced data.
 
-4.Evaluation Metrics
+4. Evaluation Metrics
 
    - Accuracy: Measures the overall performance.
 
