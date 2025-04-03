@@ -1,5 +1,5 @@
-TASK 1
-# FAKE NEWS DETECTION
+# TASK 1
+## FAKE NEWS DETECTION
 
 
 ### ABSTRACT
@@ -50,6 +50,86 @@ The dataset is shuffled and split into training (80%) and testing (20%) sets. Th
 ### Conclusion
 
   The implemented Naïve Bayes classifier with TF-IDF achieves promising results in detecting fake news. The model effectively identifies key indicators of fake news and provides high accuracy with a simple yet efficient approach. Future improvements could involve deep learning models such as LSTMs or transformers to enhance accuracy and handle complex linguistic patterns.
+
+
+
+
+
+
+# TASK 2
+## CREDIT CARD FRAUD DETECTION
+
+
+### ABSTRACT
+Credit card fraud detection is a critical challenge in financial security. This project applies machine learning techniques to detect fraudulent transactions using a Random Forest Classifier. The dataset is analyzed through data preprocessing, feature engineering, and classification modeling. The performance is evaluated using accuracy, precision, recall, F1-score, and a confusion matrix.
+
+
+### OVERVIEW
+This project processes and classifies credit card transactions as fraudulent or valid. The steps include:
+
+1.Data Exploration – Analyzing transaction distributions and fraud prevalence.
+
+2.Data Preprocessing – Handling missing values, feature selection, and normalization.
+
+3.Feature Engineering – Using Principal Component Analysis (PCA)-transformed features.
+
+4.Model Training – Applying a Random Forest Classifier for classification.
+
+5.Evaluation – Measuring performance with classification metrics and visualizations.
+
+### PROJECT GOALS
+  - Build a machine learning model to classify fraudulent transactions.
+
+  - Analyze key indicators of fraudulent behavior.
+
+  - Improve classification performance through hyperparameter tuning.
+
+  - Provide an interpretable and scalable fraud detection solution.
+
+### DATASET
+The dataset used is the Credit Card Fraud Detection Dataset from Kaggle. It contains numerical features derived from PCA, making it suitable for anomaly detection.
+
+   - Features: 28 anonymized numerical attributes (V1–V28), Time, and Amount.
+
+   - Target Variable: Class (0 = Legitimate, 1 = Fraudulent).
+
+   - Dataset Split: 80% Training, 20% Testing.
+
+🔗 Credit Card Fraud Detection Dataset on Kaggle
+
+### ALGORITHM
+1. Data Preprocessing
+
+    - Remove unnecessary symbols and standardize numerical values.
+
+    - Visualize distributions of transaction Amount and Time.
+
+2. Feature Extraction
+
+    - Apply TF-IDF vectorization for text-based features (if applicable).
+
+    - Use PCA-transformed features (V1–V28) for model input.
+
+3. Model Selection
+
+    - Random Forest Classifier is chosen due to its robustness against imbalanced data.
+
+4.Evaluation Metrics
+
+   - Accuracy: Measures the overall performance.
+
+   - Precision & Recall: Evaluate fraud detection effectiveness.
+
+   - F1-Score: Balances precision and recall.
+
+   - Matthews Correlation Coefficient (MCC): Measures classification quality.
+
+   - Confusion Matrix: Visualizes false positives and false negatives.
+
+### CONCLUSION
+The Random Forest Classifier demonstrates strong performance in detecting fraudulent transactions. It effectively identifies fraudulent behavior with high accuracy and F1-score. Future improvements may include hyperparameter tuning, deep learning models (LSTMs, Transformers), or anomaly detection techniques for enhanced fraud detection.
+
+
 
 
 
