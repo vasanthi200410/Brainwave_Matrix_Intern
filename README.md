@@ -1,4 +1,4 @@
-# TASK 1
+
 ## FAKE NEWS DETECTION
 
 
@@ -56,7 +56,7 @@ The dataset is shuffled and split into training (80%) and testing (20%) sets. Th
 
 
 
-# TASK 2
+
 ## CREDIT CARD FRAUD DETECTION
 
 
